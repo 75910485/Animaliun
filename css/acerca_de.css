@@ -1,23 +1,16 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    background-image: url('/img/ingacer/fond.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
+/* MENU */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .navbar-brand {
@@ -29,25 +22,39 @@ body {
     margin-right: 10px;
 }
 
-.navbar-nav {
-    display: flex;
-    gap: 1rem;
-}
-
 .nav-link {
-    color: white;
+    color: white !important;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.d-flex .nav-link {
+    color: white!important;
+    font-size: 20px;
+}
+
+.d-flex .nav-link:hover {
+    color: #ccc !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+a{
     text-decoration: none;
-}
 
-.navbar-icons {
-    display: flex;
-    gap: 1rem;
-}
 
-.navbar-icons i {
-    color: white;
 }
-
 /* About Section Styles */
 .about-section {
     padding: 2rem;
