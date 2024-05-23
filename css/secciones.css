@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 /* MENU */
@@ -48,6 +49,11 @@
     color: #fff;
 }
 
+a{
+    text-decoration: none;
+
+
+}
 
 /*SECCIONES*/
 .grid-container {
@@ -100,6 +106,8 @@ html body {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    text-decoration: none;
+
     }
 
 .content {
