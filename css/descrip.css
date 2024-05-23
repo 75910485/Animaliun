@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .container{
+    background-image: url("img/mamifero_leon.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+.bg-dark {
+    background-color: #00000000 !important;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 10px;
+}
+.nav-link {
+    color: white !important;
+    font-size: 18px;
+    margin: 0 15px;
+}
+.nav-link:hover {
+    color: #ccc !important;
+}
+.navbar-nav .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.d-flex .nav-link {
+    color: white!important;
+    font-size: 20px;
+}
+.d-flex .nav-link:hover {
+    color: #ccc !important;
+}
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/*CENTRO*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    
+}
+.container-prime{
+    margin-top: 20%;
+    width: 60%;
+}
+.title{
+    font-size: 60px;
+    color: rgb(214, 173, 119);
+    font-family: "Krona One", sans-serif;
+}
+.des{
+    font-size: 23px;
+    color: rgb(241, 237, 237);
+    font-family: "Krona One", sans-serif;
+}
+.container-second{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.subtitle{
+    font-size: 26px;
+    color: rgb(153, 144, 144);
+    font-family: "Krona One", sans-serif;
+}
+.swiper{
+    margin-top: 40px;
+    padding: 20px;
+}
+.swiper-slide{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    height: 420px;
+    width: 100px;
+    margin-left: 0px;
+    position: relative;
+}
+.swiper-slide img{
+    width: 300px;
+    height: 420px;
+}
+@media(max-width:991px) {
+    .title{
+        font-size: 35px;
+    }
+    .des{
+        font-size: 18px;
+    }
+    .swiper{
+        padding: 0 70px;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+}
+
+/*PIE DE PAGINA*/
+html body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.349), rgba(5, 7, 12, 0.37)),url(/img/mamifero_fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #0d2033;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    background-color: #444;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #222;
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.pie-pagina .grupo-2 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-2 .contact-button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pie-pagina .grupo-2 .contact-button:hover {
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .pie-pagina .grupo-1 .box {
+        margin-bottom: 20px;
+    }
+
+    .pie-pagina .grupo-1 .red-social {
+        justify-content: center;
+    }
+}
