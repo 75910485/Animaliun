@@ -101,6 +101,11 @@ a{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
+}
+
+.nombre-animales:hover {
+    text-decoration: none;
 }
 
 /* Responsive Design */
@@ -110,15 +115,15 @@ a{
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     .grid-container {
-        grid-template-columns: 1fr; /* 1 columna en pantallas muy pequeñas */
+        grid-template-columns: 1fr; /* 1 columna en pantallas extra pequeñas */
     }
 }
 
