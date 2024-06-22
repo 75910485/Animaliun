@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +9,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body style="background-image: url(img/fondo.png);">
+<body>
+    <div class="carousel">
+        <div class="carousel-image active" style="background-image: url('img/fondo1.jpg');"></div>
+        <div class="carousel-image" style="background-image: url('img/fondo2.jpg');"></div>
+        <div class="carousel-image" style="background-image: url('img/fondo3.jpg');"></div>
+    </div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 text-center">
@@ -27,6 +30,6 @@
     <div class="header">
         <a href="iniciar-sesion.html" class="btn btn-primary">INICIAR SESIÓN</a>
     </div>
+    <script src="js/carousel.js"></script>
 </body>
-
 </html>
