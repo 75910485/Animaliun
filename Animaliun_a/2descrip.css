@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hidden {
+    display: none;
+}
+#elefante{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#peznemo{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1125979/pexels-photo-1125979.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#saponaranja{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/3656636/pexels-photo-3656636.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#iguanaverde{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/20861/pexels-photo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#loroverde{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/97533/pexels-photo-97533.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#mariposa{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/17547261/pexels-photo-17547261/free-photo-of-naturaleza-planta-flor-mariposa.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#caracolmarron{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1680259/pexels-photo-1680259.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#pulpo{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.700), rgba(5, 7, 12, 0.700)), url(https://images.pexels.com/photos/4702377/pexels-photo-4702377.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#mantis{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/3038150/pexels-photo-3038150.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#cangrejocrus{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/73769/crab-crustacean-sea-ocean-73769.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#lombriz{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/4386491/pexels-photo-4386491.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#arañanegra{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/13274112/pexels-photo-13274112.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+/* MENU */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.d-flex .nav-link {
+    color: white!important;
+    font-size: 20px;
+}
+
+.d-flex .nav-link:hover {
+    color: #ccc !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/*CENTRO al prmiro le borre flex colum*/
+.container-prime{
+    padding: 5px;
+}
+.part-campo{
+    padding: 20px;
+    width: 90%;
+    margin-top: 19%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.campo1{
+    width: 50%;
+    margin: 30px;
+}
+.title{
+    color: rgb(211, 129, 22);
+    font-family: "Krona One", sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.descrip{
+    color: rgb(242, 245, 247);
+    font-family: "Krona One", sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    font-weight: 0;
+}
+.subtitle{
+    font-size: 19px;
+    color: rgb(153, 144, 144);
+    font-family: "Krona One", sans-serif;
+}
+.line{
+    background-color: #fff;
+    margin: 15px;
+    height: 4px;
+    width: 600px;
+}
+.caract{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.carat-line{
+    font-size: 15px;
+    color: #fff;
+    font-family: "Krona One", sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.campo2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+}
+.card-img{
+    width: 500px;
+    height: 270px;
+    padding: 20px;
+    margin: 5px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+.title-center{
+    color: rgb(211, 129, 22);
+    font-family: "Krona One", sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.campo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.card-text{
+    color: #fff;
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    width: 40%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #3b3b3b7a;
+    margin: 20px;
+    padding: 15px;
+}
+@media(max-width:991px) {
+    .title{
+        font-size: 35px;
+    }
+    .des{
+        font-size: 18px;
+    }
+}
+/*PIE DE PAGINA*/
+html body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(/img/fondo-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+text-decoration: none;
+
+}
+
+.content {
+flex: 1;
+background-color: #ccc;
+}
+
+.pie-pagina {
+width: 100%;
+background-color: #333;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+}
+
+.pie-pagina .grupo-1 {
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+padding: 20px 0;
+text-align: center;
+}
+
+.pie-pagina .grupo-1 .box figure {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+color: #fff;
+margin-bottom: 15px;
+font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+color: #efefef;
+margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: #fff;
+background-color: #0d2033;
+text-align: center;
+border-radius: 50%;
+transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+background-color: #444;
+}
+
+.pie-pagina .grupo-2 {
+background-color: #222;
+padding: 15px 10px;
+text-align: center;
+width: 100%;
+}
+
+.pie-pagina .grupo-2 p {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-2 .contact-button {
+background-color: #fff;
+color: #333;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+text-decoration: none;
+}
+
+.pie-pagina .grupo-2 .contact-button:hover {
+background-color: #ddd;
+}
+
+@media screen and (max-width: 800px) {
+.pie-pagina .grupo-1 {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box {
+    margin-bottom: 20px;
+}
+
+.pie-pagina .grupo-1 .red-social {
+    justify-content: center;
+}
+}

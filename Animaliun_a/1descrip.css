@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hidden {
+    display: none;
+}
+#mamiferos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/162306/tiger-nature-zoo-wild-162306.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#peces{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.300), rgba(5, 7, 12, 0.300)), url(https://images.pexels.com/photos/9004405/pexels-photo-9004405.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#anfibios{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.300), rgba(5, 7, 12, 0.300)), url(https://images.pexels.com/photos/16668275/pexels-photo-16668275/free-photo-of-naturaleza-bosque-animal-mojado.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#reptiles{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.300), rgba(5, 7, 12, 0.300)), url(https://images.pexels.com/photos/14541710/pexels-photo-14541710.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#aves{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.400), rgba(5, 7, 12, 0.400)), url(https://images.pexels.com/photos/7851072/pexels-photo-7851072.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#insectos{
+    background-image: linear-gradient(rgba(15, 36, 29, 0.521), rgba(15, 36, 29, 0.45)), url(https://images.pexels.com/photos/2132203/pexels-photo-2132203.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#gastropodos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.300), rgba(5, 7, 12, 0.300)), url(https://images.pexels.com/photos/183333/pexels-photo-183333.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#moluscos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.550), rgba(5, 7, 12, 0.550)), url(https://images.pexels.com/photos/3046629/pexels-photo-3046629.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#artropodos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.500), rgba(5, 7, 12, 0.500)), url(https://images.pexels.com/photos/6128383/pexels-photo-6128383.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#crustaceos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.400), rgba(5, 7, 12, 0.400)), url(https://images.pexels.com/photos/584501/pexels-photo-584501.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#anelidos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.550), rgba(5, 7, 12, 0.550)), url(https://images.pexels.com/photos/443547/pexels-photo-443547.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#aracnidos{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.300), rgba(5, 7, 12, 0.300)), url(https://images.pexels.com/photos/257554/pexels-photo-257554.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.container-one{
+    padding: 5px;
+}
+.parteuno-container{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19%;
+    margin-left: 2%;
+}
+.primer-part{
+    width: 100%;
+    margin: 30px;
+}
+.title{
+    color: rgb(211, 129, 22);
+    font-family: "Krona One", sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.descrip{
+    color: rgb(242, 245, 247);
+    font-family: "Krona One", sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    font-weight: 0;
+}
+/*Carrusel*/
+.container-carousel{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 1150px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.subtitle{
+    margin-right: 50%;
+}
+.subtitle h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Krona One", sans-serif;
+    margin: 15px;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    flex: 0 0 auto;
+    width: calc(100% / 3); /* Ajuste el divisor según la cantidad de imágenes que se mostrarán a la vez*/
+}
+.carousel-item img {
+    width: 90%;
+    display: block;
+    border-radius: 30px;
+}
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media (max-width: 900px) {
+    .carousel-item {
+        width: calc(100% / 2); /* Adjust for smaller screens */
+    }
+
+    button {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+        width: 100%; /* Show one image at a time on small screens */
+    }
+}
+@media(max-width:991px) {
+    .parteuno-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .primer-part{
+        width: 100%;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+/*PIE DE PAGINA*/
+html body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.pie-pagina {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+.pie-pagina .grupo-1 .box figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #0d2033;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover {
+    background-color: #444;
+}
+.pie-pagina .grupo-2 {
+    background-color: #222;
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+}
+.pie-pagina .grupo-2 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-2 .contact-button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.pie-pagina .grupo-2 .contact-button:hover {
+    background-color: #ddd;
+}
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .pie-pagina .grupo-1 .box {
+        margin-bottom: 20px;
+    }
+    .pie-pagina .grupo-1 .red-social {
+        justify-content: center;
+    }
+}

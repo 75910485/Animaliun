@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1descrip.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <nav>
+        <a href="#peces" onclick="showSection('peces')">Ver Peces</a>
+        <a href="#anfibios" onclick="showSection('anfibios')">Ver anfibios</a>
+        <a href="#mamiferos" onclick="showSection('mamiferos')">Ver mamiferos</a>
+        <a href="#reptiles" onclick="showSection('reptiles')">Ver reptiles</a>
+        <a href="#aves" onclick="showSection('aves')">Ver aves</a>
+        <a href="#insectos" onclick="showSection('insectos')">Ver insectos</a>
+
+    </nav>
+    <section class="container1">
+        <div class="container-one" id="mamiferos">
+            <div class="parteuno-container">
+                <div class="primer-part">
+                    <div class="title">
+                        <h2>MAMIFEROS</h2>
+                    </div>
+                    <div class="descrip">
+                        <p>Los mamíferos son una clase de animales vertebrados caracterizados por la presencia de glándulas mamarias que producen leche para alimentar a sus crías, piel cubierta de pelo en mayor o menor medida, y la capacidad de regular su temperatura corporal de manera interna (endotermia). </p>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <img src="#" alt="">
+                </div>
+            </div>
+
+            <div class="container-carousel">
+                <div class="subtitle">
+                    <h3>Otros mamiferos:</h3>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="elefante.html"><img src="img/img_descrip/elefante.jpg" alt=""></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/tigre.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/leopardo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-one hidden" id="peces">
+            <div class="parteuno-container">
+                <div class="primer-part">
+                    <div class="title">
+                        <h2>PECES</h2>
+                    </div>
+                    <div class="descrip">
+                        <p>Los peces son animales acuáticos vertebrados, que están adaptados para vivir en el agua. Poseen branquias que les permiten respirar oxígeno disuelto en el agua y la mayoría tiene aletas y cuerpos cubiertos de escamas.</p>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <img src="#" alt="">
+                </div>
+            </div>
+
+            <div class="container-carousel">
+                <div class="subtitle">
+                    <h3>Otros peces:</h3>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="peznemo.html"><img src="img/img_descrip/peznemo.jpg" alt=""></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/pezkoy.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/mantaraya.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-one hidden" id="anfibios">
+            <div class="parteuno-container">
+                <div class="primer-part">
+                    <div class="title">
+                        <h2>ANFIBIOS</h2>
+                    </div>
+                    <div class="descrip">
+                        <p>Los anfibios son un grupo de vertebrados fascinantes y esenciales para el equilibrio de los ecosistemas. Su capacidad única de vivir tanto en el agua como en la tierra los convierte en indicadores de la salud del medio ambiente. </p>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <img src="img/img_descrip/pez.png" alt="">
+                </div>
+            </div>
+
+            <div class="container-carousel">
+                <div class="subtitle">
+                    <h3>Otros anfibios:</h3>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="saponaranja.html"><img src="img/img_descrip/saponaranja.jpg" alt=" "></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/saponegro.jpg" alt=" ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/saponormal.jpg" alt=" ">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-one hidden" id="reptiles">
+            <div class="parteuno-container">
+                <div class="primer-part">
+                    <div class="title">
+                        <h2>REPTILES</h2>
+                    </div>
+                    <div class="descrip">
+                        <p>Los reptiles son un grupo de vertebrados ectotermos, escamosos, con una amplia diversidad de formas y tamaños. Han poblado la Tierra durante millones de años, adaptándose a una gran variedad de hábitats, desde desiertos áridos hasta selvas tropicales.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <img src="img/img_descrip/pez.png" alt="">
+                </div>
+            </div>
+
+            <div class="container-carousel">
+                <div class="subtitle">
+                    <h3>Otros reptiles:</h3>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="iguanaverde.html"><img src="img/img_descrip/iguanaverde.jpg" alt=""></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/camaleonamarillo.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/camaleon.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-one hidden" id="aves">
+            <div class="parteuno-container">
+                <div class="primer-part">
+                    <div class="title">
+                        <h2>AVES</h2>
+                    </div>
+                    <div class="descrip">
+                        <p>Las aves son un grupo de vertebrados extraordinarios que se caracterizan por su capacidad de volar, plumas, picos y huevos. Han conquistado los cielos de todo el planeta, poblando desde los desiertos más áridos hasta las selvas más frondosas. </p>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <img src="img/img_descrip/pez.png" alt="">
+                </div>
+            </div>
+
+            <div class="container-carousel">
+                <div class="subtitle">
+                    <h3>Otros aves:</h3>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="loroverde.html"><img src="img/img_descrip/loroverde.jpg" alt=""></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/pato.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/gaviota.jpg" alt="">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-one hidden" id="insectos">
+            <div class="parteuno-container">
+                <div class="primer-part">
+                    <div class="title">
+                        <h2>INSECTOS</h2>
+                    </div>
+                    <div class="descrip">
+                        <p>Los insectos son un grupo de artrópodos invertebrados hexápodos, es decir, con seis patas, que constituyen el grupo animal más diverso del planeta. Tienen una increíble capacidad de adaptación, colonizando prácticamente todos los ambientes terrestres y algunos acuáticos.</p>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <img src="img/img_descrip/pez.png" alt="">
+                </div>
+            </div>
+
+            <div class="container-carousel">
+                <div class="subtitle">
+                    <h3>Otros insectos:</h3>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="mariposa.html"><img src="img/img_descrip/mariposa.jpg" alt=""></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/mariquita.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img_descrip/escarabajogramde.jpg" alt="">
+                        </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--PIE DE PAGINA-->
+    
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/Animalium_logo.png" alt="Animalium Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Nuestra misión es proteger y cuidar a los animales.</p>
+                <p>Únete a nuestra causa y ayúdanos a hacer la diferencia.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-telegram"></a>
+                    <a href="#" class="fa fa-discord"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <p>¿Quieres colaborar con nosotros?</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    function showSection(sectionId) {
+        document.querySelectorAll('.container-one').forEach(function(section) {
+            section.classList.add('hidden');
+        });
+        document.getElementById(sectionId).classList.remove('hidden');
+        initSwipers(sectionId);
+    }
+
+    // Initialize Swipers for the initially visible section
+    initSwipers('mamiferos');
+
+    function navigateToSection(page, sectionId) {
+            localStorage.setItem('targetSection', sectionId);
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
