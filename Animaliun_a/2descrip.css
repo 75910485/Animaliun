@@ -16,6 +16,22 @@
     background-attachment: fixed;
     margin: 0;
 }
+#tigre{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1642070/pexels-photo-1642070.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#leopardo{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1642068/pexels-photo-1642068.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 #peznemo{
     background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1125979/pexels-photo-1125979.jpeg);
     background-position: center center;
@@ -24,7 +40,39 @@
     background-attachment: fixed;
     margin: 0;
 }
+#pezkoi{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.218), rgba(5, 7, 12, 0.218)), url(https://images.pexels.com/photos/14541707/pexels-photo-14541707.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#mantaraya{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/2832643/pexels-photo-2832643.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 #saponaranja{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/3656636/pexels-photo-3656636.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#saponegro{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1136104/pexels-photo-1136104.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#ranaverde{
     background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/3656636/pexels-photo-3656636.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -40,8 +88,40 @@
     background-attachment: fixed;
     margin: 0;
 }
+#camaleonamarillo{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/922519/pexels-photo-922519.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#camaleonverde{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/751686/pexels-photo-751686.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 #loroverde{
     background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/97533/pexels-photo-97533.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#pato{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/5805976/pexels-photo-5805976.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#gaviota{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/22405923/pexels-photo-22405923/free-photo-of-naturaleza-pajaro-gaviota-fotografia-de-animales.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,8 +152,32 @@
     background-attachment: fixed;
     margin: 0;
 }
+#almeja{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.700), rgba(5, 7, 12, 0.700)), url(https://images.pexels.com/photos/928346/pexels-photo-928346.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 #mantis{
     background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/3038150/pexels-photo-3038150.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#escarabajonegro{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/757262/pexels-photo-757262.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#escarabajonormal{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/80472/weevils-beetle-diaprepes-abbreviatus-caribbean-80472.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +192,22 @@
     background-attachment: fixed;
     margin: 0;
 }
+#cangrejoermitaño{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/19588314/pexels-photo-19588314/free-photo-of-cangrejo-ermitano-cebra.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#gambas{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/1483780/pexels-photo-1483780.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 #lombriz{
     background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/4386491/pexels-photo-4386491.jpeg);
     background-position: center center;
@@ -96,8 +216,40 @@
     background-attachment: fixed;
     margin: 0;
 }
+#cienpies{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/3904047/pexels-photo-3904047.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#oruga{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/443547/pexels-photo-443547.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 #arañanegra{
     background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/13274112/pexels-photo-13274112.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#arañanormal{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/40795/spider-macro-zebra-spider-insect-40795.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#arañaroja{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.582), rgba(5, 7, 12, 0.582)), url(https://images.pexels.com/photos/760223/pexels-photo-760223.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,6 +338,8 @@
     margin: 15px;
     height: 4px;
     width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .caract{
     display: flex;
@@ -244,134 +398,156 @@
     padding: 15px;
 }
 @media(max-width:991px) {
-    .title{
-        font-size: 35px;
+    .part-campo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
-    .des{
-        font-size: 18px;
+    .subtitle{
+        margin-right: 20%;
+        margin-bottom: 10px;
+    }
+    .descrip{
+        font-size: 14px;
+        text-align: center;
+    }
+    .campo1{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .campo2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .title-center{
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .campo3{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-text{
+        font-size: 20px;
+        width: 80%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .line{
+        height: 4px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .caract{
+        display: flex;
+        justify-content: center;
     }
 }
 /*PIE DE PAGINA*/
-html body { 
+html body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-image: url(/img/fondo-principal.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-text-decoration: none;
-
 }
-
-.content {
-flex: 1;
-background-color: #ccc;
-}
-
 .pie-pagina {
-width: 100%;
-background-color: #333;
-color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 20px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
 }
-
 .pie-pagina .grupo-1 {
-width: 100%;
-max-width: 1200px;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 20px;
-padding: 20px 0;
-text-align: center;
-}
-
-.pie-pagina .grupo-1 .box figure {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.pie-pagina .grupo-1 .box figure img {
-width: 150px;
-}
-
-.pie-pagina .grupo-1 .box h2 {
-color: #fff;
-margin-bottom: 15px;
-font-size: 20px;
-}
-
-.pie-pagina .grupo-1 .box p {
-color: #efefef;
-margin-bottom: 10px;
-}
-
-.pie-pagina .grupo-1 .red-social {
-display: flex;
-justify-content: center;
-gap: 10px;
-}
-
-.pie-pagina .grupo-1 .red-social a {
-display: inline-block;
-text-decoration: none;
-width: 45px;
-height: 45px;
-line-height: 45px;
-color: #fff;
-background-color: #0d2033;
-text-align: center;
-border-radius: 50%;
-transition: all 300ms ease;
-}
-
-.pie-pagina .grupo-1 .red-social a:hover {
-background-color: #444;
-}
-
-.pie-pagina .grupo-2 {
-background-color: #222;
-padding: 15px 10px;
-text-align: center;
-width: 100%;
-}
-
-.pie-pagina .grupo-2 p {
-font-size: 18px;
-margin-bottom: 10px;
-}
-
-.pie-pagina .grupo-2 .contact-button {
-background-color: #fff;
-color: #333;
-padding: 10px 20px;
-border: none;
-cursor: pointer;
-transition: background-color 0.3s ease;
-text-decoration: none;
-}
-
-.pie-pagina .grupo-2 .contact-button:hover {
-background-color: #ddd;
-}
-
-@media screen and (max-width: 800px) {
-.pie-pagina .grupo-1 {
-    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px 0;
     text-align: center;
 }
-
-.pie-pagina .grupo-1 .box {
-    margin-bottom: 20px;
-}
-
-.pie-pagina .grupo-1 .red-social {
+.pie-pagina .grupo-1 .box figure {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #0d2033;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover {
+    background-color: #444;
+}
+.pie-pagina .grupo-2 {
+    background-color: #222;
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+}
+.pie-pagina .grupo-2 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-2 .contact-button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.pie-pagina .grupo-2 .contact-button:hover {
+    background-color: #ddd;
+}
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .pie-pagina .grupo-1 .box {
+        margin-bottom: 20px;
+    }
+    .pie-pagina .grupo-1 .red-social {
+        justify-content: center;
+    }
 }
