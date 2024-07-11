@@ -1,26 +1,31 @@
 <?php
+// iniciarSesion.php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $correo = $_POST['correo'];
+    $contrasena = $_POST['contrasena'];
 
-include('conexion.php');
-
-if (isset($_POST['Usuario']) && isset($_POST['Clave'])) {
-
-    function validate($data){
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
+    // Validación básica
+    if (empty($correo) || empty($contrasena)) {
+        echo "Todos los campos son obligatorios.";
+        exit;
     }
 
-    $Usuario = validate($_POST['Usuario']);
-    $Clave = validate($_POST['Clave']);
+    // Verificar los datos del usuario
+    $file = fopen('usuarios.txt', 'r');
+    $login_exitoso = false;
+    while ($line = fgets($file)) {
+        list($nombre, $edad, $correo_guardado, $contrasena_guardada) = explode(',', trim($line));
+        if ($correo === $correo_guardado && $contrasena === $contrasena_guardada) {
+            $login_exitoso = true;
+            break;
+        }
+    }
+    fclose($file);
 
-    if (empty($Usuario)) {
-        header("Location: Index.php?error=El usuario es requerido");
-        exit();
-    }elseif (empty($Clave)) {
-        header("Location: Index.php?error=La clabe es requerida");
-        exit();
+    if ($login_exitoso) {
+        echo "Inicio de sesión exitoso. <a href='http://localhost/Animaliun-main/index.html'>Ir al inicio</a>";
+    } else {
+        echo "Correo o contraseña incorrectos.";
     }
 }
-
 ?>
