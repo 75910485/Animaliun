@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/noticias/ropa/csss/fo.jpg');
+    background-image: url('./noticias/ropa/csss/fo.jpg');
     display: flex;
     flex-direction: column;
     min-height: 100vh;
