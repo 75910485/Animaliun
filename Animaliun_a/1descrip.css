@@ -89,7 +89,7 @@
     margin: 0;
 }
 #anelidos{
-    background-image: linear-gradient(rgba(5, 7, 12, 0.550), rgba(5, 7, 12, 0.550)), url(https://images.pexels.com/photos/443547/pexels-photo-443547.jpeg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.550), rgba(5, 7, 12, 0.550)), url(https://images.pexels.com/photos/132398/pexels-photo-132398.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,6 +104,25 @@
     background-attachment: fixed;
     margin: 0;
 }
+/* MENU */
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    background-color: aqua;
+}
+.collapse{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 136, 0);
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 0);
+}
+/* RELLENO */
+
 .container-one{
     padding: 5px;
 }
@@ -143,6 +162,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 50px;
 }
 .carousel {
     position: relative;
@@ -194,32 +214,42 @@ button {
     right: 10px;
 }
 
-@media (max-width: 900px) {
-    .carousel-item {
-        width: calc(100% / 2); /* Adjust for smaller screens */
-    }
-
-    button {
-        font-size: 1.5rem;
-        padding: 5px;
-    }
-}
-
-@media (max-width: 600px) {
-    .carousel-item {
-        width: 100%; /* Show one image at a time on small screens */
-    }
-}
 @media(max-width:991px) {
     .parteuno-container{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+    }
+    .subtitle{
+        margin-right: 20%;
+        margin-bottom: 10px;
+    }
+    .descrip{
+        font-size: 14px;
+        text-align: center;
     }
     .primer-part{
         width: 100%;
     }
     .title{
         font-size: 20px;
+        text-align: center;
+    }
+    
+    .carousel{
+        width: 90%;
+    }
+    .carousel-inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+
+    }
+    .carousel-item{
+        margin: 15px;
+        width: 50%;
     }
 }
 /*PIE DE PAGINA*/
@@ -295,15 +325,20 @@ html body {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.pie-pagina .grupo-2 .contact-button {
+.contact-button{
     background-color: #fff;
     color: #333;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin: 10px;
 }
-.pie-pagina .grupo-2 .contact-button:hover {
+.contact-button:hover {
     background-color: #ddd;
 }
 @media screen and (max-width: 800px) {
