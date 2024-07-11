@@ -1,5 +1,11 @@
+/* noti1.css */
 
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.6);
@@ -164,17 +170,15 @@ html, body {
     }
 }
 
-/*
-8*/
 .noticia {
     display: grid;
     gap: 20px;
     justify-content: center;
+    padding: 20px;
 }
 
 .cuadro-sombra {
-    background-color: rgb(124, 149, 30);
-    
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 50% de transparencia */
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -203,6 +207,7 @@ html, body {
 .cuadro-sombra .texto {
     width: 50%;
     text-align: left;
+    color: #000; /* Color del texto negro para mejor legibilidad */
 }
 
 @media screen and (max-width: 800px) {
