@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="csss/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo_sinfondo.png" alt="Animalium Logo" width="100" height="100">
+                Animalium
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/secciones.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/acerca_de.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/noticias.html">Noticia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/guias.html">Guías de cuidado</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                    <a class="nav-link" href="perfil.html"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Informe nuevo de Noticia</h1>
+        <form action="operaciones.php" method="post">
+            <label for="autor">Autor :</label>
+            <input type="text" id="autor" name="autor" required>
+
+            <label for="titulo">Titulo :</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="informe">Informe :</label>
+            <input type="text" id="informe" name="informe" required>
+
+            <label for="imag">Imagenes web link drive :</label>
+            <input type="text" id="imag" name="imag" required>
+
+            <label for="publi">Fecha de publicacion :</label>
+            <input type="datetime-local" id="publi" name="publi" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="content">
+    </div>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo_sinfondo.png" alt="Animalium Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Nuestra misión es proteger y cuidar a los animales.</p>
+                <p>Únete a nuestra causa y ayúdanos a hacer la diferencia.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-telegram"></a>
+                    <a href="#" class="fa fa-discord"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <p>¿Quieres colaborar con nosotros?</p>
+            <a href="/contacto.html" class="contact-button">CONTACTANOS</a>
+        </div>
+    </footer>
+</body>
+</html>
